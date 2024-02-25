@@ -9,7 +9,7 @@ app = Flask(__name__)
 def createJira():
 
 
-        url = "https://jirasetup5.atlassian.net/rest/api/3/issue"
+        url = "https://your-domain.atlassian.net/rest/api/3/issue"
 
         API_TOKEN="Put-Your-Jira-API-Token-Here"
         auth = HTTPBasicAuth("Put-Your-email-which-is-used-to-login-to-Jira", API_TOKEN)
